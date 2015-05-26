@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html class="some_class">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        html.chrome h1 {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+<h1>Hello!</h1>
+
+<script src="../bower_components/bowser/bowser.min.js"></script>
+<script src="../labeled-bowser.js"></script>
+<script>
+    (function() {
+        console.log(new LabeledBowser());
+    })();
+</script>
+</body>
+</html>
