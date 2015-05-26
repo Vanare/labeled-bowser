@@ -1,0 +1,7 @@
+{
+  "name": "demo labeled-bowser",
+  "dependencies": {
+    "bowser": "~0.7.3",
+    "requirejs": "~2.1.17"
+  }
+}
