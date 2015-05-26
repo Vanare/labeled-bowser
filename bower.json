@@ -1,0 +1,31 @@
+{
+  "name": "labeled-bowser",
+  "version": "0.0.1",
+  "authors": [
+    "Aleksandr Beshkenadze"
+  ],
+  "description": "A Browser detector in HTML tag.",
+  "main": "labeled-bowser.js",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "browser-detector",
+    "detector",
+    "browser",
+    "label",
+    "html"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/beshkenadze/labeled-bowser",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bowser": "~0.7.3"
+  }
+}
